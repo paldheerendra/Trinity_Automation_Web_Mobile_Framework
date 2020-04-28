@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression_Suite" parallel="false">
+	<listeners>
+          <listener class-name="com.generic.utils.RetryListener"/>
+    </listeners>
+ 	<test name="Regression_Tests">
+		<groups>
+			<run>
+				<include name="Web" />
+				<include name="Regression" />
+			</run>
+		</groups>
+		<classes>
+		  	<class name="com.scripts.DemoWebModule.TC1_VerifyUserIsAbleToRegisterCustomer_withViews" />
+		  	<!-- <class name="com.scripts.Invoice.TC2_VerifyUserIsAbleAddInvoiceFromCaptureInvoiceGrid" /> -->
+	 	</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
