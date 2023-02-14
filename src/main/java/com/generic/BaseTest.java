@@ -273,7 +273,7 @@ public class BaseTest extends Pojo
 	 * @param : dataSet - test data hash table
 	 * @Description : Load data from excel for the running testCase and return
 	 *              as Object array
-	 * @author : Harshvardhan Yadav (Expleo)
+	 * @author : Dheerendra Singh
 	 */
 	public void loadTestData(Hashtable<String, String> dataSet) {
 		//super.setRunID(runID);

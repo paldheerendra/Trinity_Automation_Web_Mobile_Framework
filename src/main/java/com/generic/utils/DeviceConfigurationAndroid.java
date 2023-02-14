@@ -24,7 +24,7 @@ public class DeviceConfigurationAndroid
 
 	/**
 	 * This method start adb server
-	 * @Author        : Harshvardhan Yadav (SQS)
+	 * @Author        : Dheerendra
 	 */
 	public void startADB()
 	{
@@ -42,7 +42,7 @@ public class DeviceConfigurationAndroid
 
 	/**
 	 * This method stop adb server
-	 * @Author        : Harshvardhan Yadav (SQS)
+	 * @Author        : Dheerendra
 	 */
 	public void stopADB()  
 	{
@@ -52,7 +52,7 @@ public class DeviceConfigurationAndroid
 	/**
 	 * This method return connected devices
 	 * @return hashmap of connected devices information
-	 * @Author        : Harshvardhan Yadav (SQS)
+	 * @Author        : Dheerendra
 	 */
 	public Map<String, String> getDevices() 
 	{
