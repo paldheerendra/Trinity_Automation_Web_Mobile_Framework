@@ -16,7 +16,7 @@ import com.generic.webDriver.WebDriverProvider;
 
 /**
  * Getter setter for all object 
- * @author Harshvardhan Yadav (Expleo)
+ * @author Dheerendra Singh
  */
 public class Pojo 
 {	

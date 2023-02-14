@@ -5,7 +5,7 @@ import java.lang.reflect.InvocationTargetException;
 
 /**
  * Class will load all test data, load all objects 
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class BaseView 
 {

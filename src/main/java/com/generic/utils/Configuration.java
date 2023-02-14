@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 /**
  * read write configuration properties 
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class Configuration 
 {

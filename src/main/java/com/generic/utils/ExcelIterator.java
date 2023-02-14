@@ -9,7 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 /**
  * custom Iterator for excel file
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class ExcelIterator 
 {

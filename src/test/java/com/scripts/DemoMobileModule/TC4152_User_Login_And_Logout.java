@@ -15,7 +15,7 @@ import ru.yandex.qatools.allure.annotations.Title;
 
 /**	
  *  Login and Logout 
- * 	@author : Harshvardhan Yadav (Expleo)
+ * 	@author : Dheerendra Singh
  */
 public class TC4152_User_Login_And_Logout extends BaseTest 
 {

@@ -4,7 +4,7 @@ import java.util.Hashtable;
 /**
  * This class holds runtime data of test script which can be used in 
  * different framework layers user can store/retrive from pojo getter/setter of class
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  *
  */
 public class RunTimeDataHolder {

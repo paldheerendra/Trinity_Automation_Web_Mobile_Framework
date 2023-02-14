@@ -8,7 +8,7 @@ import com.generic.utils.Configuration;
 import com.generic.utils.NetworkMonitor;
 /**
  * used to initiate selenium webdriver for automation  
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  *
  */
 public class WebDriverProvider extends WebDriverFactory 

@@ -5,7 +5,7 @@ import org.apache.logging.log4j.Logger;
 
 /**
  * Contains Log4j Logger for test environment  
- * @Author        : Harshvardhan Yadav(Expleo)
+ * @Author        : Dheerendra Singh
  */
 public class Log4JLogger
 {

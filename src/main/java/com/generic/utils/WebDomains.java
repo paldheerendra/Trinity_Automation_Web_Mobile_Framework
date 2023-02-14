@@ -3,7 +3,7 @@ package com.generic.utils;
 import com.generic.Pojo;
 /**
  * Navigation to URL for AUT
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class WebDomains 
 {

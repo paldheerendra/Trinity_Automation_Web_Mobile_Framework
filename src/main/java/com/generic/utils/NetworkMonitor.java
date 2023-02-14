@@ -4,7 +4,7 @@ import net.lightbody.bmp.BrowserMobProxy;
 import net.lightbody.bmp.BrowserMobProxyServer;
 /**
  * Monitor network traffic with BrowserMobProxy
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class NetworkMonitor 
 {

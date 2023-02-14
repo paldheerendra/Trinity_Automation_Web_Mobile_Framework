@@ -8,7 +8,7 @@ import com.generic.utils.Configuration;
 import io.appium.java_client.AppiumDriver;
 /**
  * used to initiate selenium webdriver for automation  
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  *
  */
 public class AppiumDriverProvider extends AppiumDriverFactory 

@@ -17,7 +17,7 @@ import io.appium.java_client.ios.IOSDriver;
 
 /**
  * used to initiate appium driver for automation  
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class AppiumDriverFactory implements _AppiumDriverCreation
 {

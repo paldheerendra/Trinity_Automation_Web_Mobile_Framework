@@ -27,7 +27,7 @@ public class LogReporter {
 	 * Web Reporter method
 	 * @param : Step - Step description, resultLog - result log pass/fail
 	 *        (true/false), includeMobile - result for mobile(true/false)
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 */
 	@Step("{0}")
 	public void webLog(String step, boolean resultLog) {
@@ -40,7 +40,7 @@ public class LogReporter {
 	 * @param : Step - Step description, inputValue - Input value, resultLog -
 	 *        result log pass/fail (true/false), includeMobile - result for
 	 *        mobile(true/false)
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 */
 	@Step("{0} - {1}")
 	public void webLog(String step, String inputValue, boolean resultLog) {
@@ -54,7 +54,7 @@ public class LogReporter {
 	 *        expected value, actualValue - verification point actual value,
 	 *        resultLog - result log pass/fail (true/false), includeMobile -
 	 *        result for mobile(true/false)
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 */
 	@Step("{0} - {1} - {2}")
 	public void webLog(String step, String expectedValue, String actualValue, boolean resultLog) {
@@ -66,7 +66,7 @@ public class LogReporter {
 	 * Mobile Reporter method
 	 * @param : Step - Step description, resultLog - result log pass/fail
 	 *        (true/false), includeMobile - result for mobile(true/false)
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 */
 	@Step("{0}")
 	public void mobileLog(String step, boolean resultLog) {
@@ -79,7 +79,7 @@ public class LogReporter {
 	 * @param : Step - Step description, inputValue - Input value, resultLog -
 	 *        result log pass/fail (true/false), includeMobile - result for
 	 *        mobile(true/false)
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 */
 	@Step("{0} - {1}")
 	public void mobileLog(String step, String inputValue, boolean resultLog) {
@@ -93,7 +93,7 @@ public class LogReporter {
 	 *        expected value, actualValue - verification point actual value,
 	 *        resultLog - result log pass/fail (true/false), includeMobile -
 	 *        result for mobile(true/false)
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 */
 	@Step("{0} - {1} - {2}")
 	public void mobileLog(String step, String expectedValue, String actualValue, boolean resultLog) {
@@ -103,7 +103,7 @@ public class LogReporter {
 
 	/**
 	 * Add step assert along with reporting and screenshot 
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 */
 	private void addAssertTakeScreenShot(String step, String strLog, String inputValue, String expectedValue,
 			String actualValue, boolean resultLog) 
@@ -152,7 +152,7 @@ public class LogReporter {
 
 	/**
 	 *  Take Screen shot for current web driver.
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public void takeScreenShot(WebDriver webDriver, String fileWithPath) {
 	 	try {
@@ -168,7 +168,7 @@ public class LogReporter {
 
 	/**
 	 * Take Screen shot for using current appiumDriver instance.
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public void takeScreenShot(AppiumDriver<?> appiumDriver, String fileWithPath) {
 	 	try {
@@ -184,7 +184,7 @@ public class LogReporter {
 
 	/**
 	 * Converts image file to byte array for allure  report.
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 * @throws : IOException
 	 */
 	@Attachment(value = "Screenshot", type = "image/png")

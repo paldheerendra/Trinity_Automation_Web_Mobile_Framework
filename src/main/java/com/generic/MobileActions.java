@@ -30,7 +30,7 @@ import io.appium.java_client.touch.offset.ElementOption;
 
 /**
  * wrapper functions for performing actions on mobile element 
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class MobileActions implements _MobileActions 
 {

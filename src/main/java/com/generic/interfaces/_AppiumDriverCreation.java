@@ -7,7 +7,7 @@ import io.appium.java_client.ios.IOSDriver;
 
 /**
  * Appium Creation
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public interface _AppiumDriverCreation{
 	abstract AndroidDriver<?> setNPMAndroidDriver(Configuration objConfiguration, String appiumServerIP, String appiumServerPort) throws Exception;

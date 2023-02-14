@@ -21,7 +21,7 @@ import org.openqa.selenium.logging.LogEntry;
 
 /**
  *  Contains generic utility function
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class GenericUtils 
 {
@@ -31,7 +31,7 @@ public class GenericUtils
 	 * @param 	: sExpectedDateFormat - User expected date format eg. 9 april 2014
 	 *        		--- dd/MM/yyyy -> 09/04/2015, dd-MM-yyyy -> 09-04-2015
 	 * @param 	: timeZoneId - Time Zone
-	 * @Author 	: Harshvardhan Yadav (Expleo)
+	 * @Author 	: Dheerendra Singh
 	 */
 	public static String getRequiredDay(String incOrDecDays, String expectedDateFormat, String timeZoneId) {
 		try {
@@ -56,7 +56,7 @@ public class GenericUtils
 	 * @param 	: sExpectedDateFormat - User expected date format eg. 9 april 2014
 	 *        		--- dd/MM/yyyy -> 09/04/2015, dd-MM-yyyy -> 09-04-2015
 	 * @param 	: timeZoneId - Time Zone
-	 * @Author 	: Harshvardhan Yadav (Expleo)
+	 * @Author 	: Dheerendra Singh
 	 */
 	public static String getRequiredMonth(String incOrDecMonth, String expectedDateFormat, String timeZoneId) {
 		try {
@@ -81,7 +81,7 @@ public class GenericUtils
 	 * @param 	: sExpectedDateFormat - User expected date format eg. 9 april 2014
 	 *        		--- dd/MM/yyyy -> 09/04/2015, dd-MM-yyyy -> 09-04-2015
 	 * @param 	: timeZoneId - Time Zone
-	 * @Author 	: Harshvardhan Yadav (Expleo)
+	 * @Author 	: Dheerendra Singh
 	 */
 	public static String getRequiredDateWithCustomYear(String incOrDecYear, String expectedDateFormat, String timeZoneId) {
 		try {
@@ -104,7 +104,7 @@ public class GenericUtils
 	 *  This method will converted date into excepted date format
 	 *  @param	: originalDateFormat - original date format
 	 *  @param 	: sExpectedDateFormat - User expected date format
-	 *  @Author : Harshvardhan Yadav (Expleo)
+	 *  @Author : Dheerendra Singh
 	 */
 	public static String getFormatedDate(String date, String originalDateFormat, String expectedDateFormat) {
 		try {
@@ -124,7 +124,7 @@ public class GenericUtils
 	 *  @param 	: incOrDecDays - Number by which user want increase/decrease date
 	 *  @param 	: date - user provided date
 	 *  @param 	: userDateFormat - user provided date format
-	 * @Author : Harshvardhan Yadav (Expleo)
+	 * @Author : Dheerendra Singh
 	 */
 	public static String modifyDaysFromDate(String incOrDecDays, String date, String userDateFormat) {
 		try {
@@ -145,7 +145,7 @@ public class GenericUtils
 	 *  copy files from source loaction to destination location
 	 * @param : Soure file path
 	 * @param : destination file path
-	 * @Author : Harshvardhan Yadav (Expleo)
+	 * @Author : Dheerendra Singh
 	 */
 	public static void copyFileUsingStream(String sourceFilePath, String destinationFilePath) {
 		InputStream inputStream = null;
@@ -173,7 +173,7 @@ public class GenericUtils
 
 	/**
 	 * convert month to number
-	 * @Author : Harshvardhan Yadav (Expleo)
+	 * @Author : Dheerendra Singh
 	 */
 	public static String getMonthInNumber(String expectedMonth){
 		try{

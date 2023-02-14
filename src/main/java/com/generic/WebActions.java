@@ -30,7 +30,7 @@ import com.generic.utils.CommandPrompt;
 
 /**
  * wrapper functions for performing actions on web element 
- * @author Harshvardhan Yadav (Expleo)
+ * @author Dheerendra Singh
  */
 public class WebActions implements _WebActions 
 {
@@ -110,7 +110,7 @@ public class WebActions implements _WebActions
 
 	/**
 	 * Perform specific action on web element
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public boolean invokeOnLocator(By locator, String action){
 		int intAttempts = 0;
@@ -253,7 +253,7 @@ public class WebActions implements _WebActions
 
 	/**
 	 * Perform specific action on web element
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public boolean invokeOnLocator(By locator, String action, String... values){
 		int intAttempts = 0;
@@ -424,7 +424,7 @@ public class WebActions implements _WebActions
 
 	/**
 	 * Perform specific action on web element
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public String getFromLocator(By locator, String action, String... strategy){
 		int intAttempts = 0;
@@ -531,7 +531,7 @@ public class WebActions implements _WebActions
 
 	/**
 	 * Perform specific action on web element
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public boolean invokeOnLocator(By locator, String action, boolean... status){
 		int intAttempts = 0;
@@ -640,7 +640,7 @@ public class WebActions implements _WebActions
 
 	/**
 	 * Wait for network traffic to stop
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	private boolean waitForNetworkTraffic() {
 		try{
@@ -662,7 +662,7 @@ public class WebActions implements _WebActions
 	/**
 	 * Process web element with all defined synchronization 
 	 * @return processed web element
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public WebElement processElement(final By locator)
 	{
@@ -698,7 +698,7 @@ public class WebActions implements _WebActions
 	/**
 	 * Process web element with all defined synchronization 
 	 * @return processed web element list
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public List<WebElement> processElements(final By locator)
 	{
@@ -733,7 +733,7 @@ public class WebActions implements _WebActions
 
 	/**
 	 *  wait for completion of active ajax control
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public void waitForAjaxControls(int timeoutInSeconds) {
 		System.out.println("Querying active AJAX controls by calling jquery.active");
@@ -827,7 +827,7 @@ public class WebActions implements _WebActions
 
 	/**
 	 * Press keyboard keys
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public boolean pressKeybordKeys(By locator, String key){
 		try{
@@ -848,7 +848,7 @@ public class WebActions implements _WebActions
 	/**
 	 * Return current window handle
 	 * @return current window handle
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public String getCurrentWindowHandle() {
 		try {
@@ -863,7 +863,7 @@ public class WebActions implements _WebActions
 
 	/**
 	 * switchTo child Window
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 **/
 	public void switchToChildWindow() 
 	{	
@@ -894,7 +894,7 @@ public class WebActions implements _WebActions
 
 	/**
 	 * switchTo child Window using window handle
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 **/
 	public void switchToWindowUsingHandle(String windowHandle) 
 	{	
@@ -925,7 +925,7 @@ public class WebActions implements _WebActions
 	/**
 	 * switch to window using the given title
 	 * @param : locator - Window title
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public boolean switchToWindowUsingTitle(String windowTitle) {
 		try {
@@ -955,7 +955,7 @@ public class WebActions implements _WebActions
 
 	/**
 	 * execute autoit script
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 **/
 	public void executeAutoIIscriptForFileUpload(String filePath) {
 		try {
@@ -974,7 +974,7 @@ public class WebActions implements _WebActions
 	 *  @param : locator - The most common one. You locate your iframe like other
 	 *        		elements, then pass it into the method
 	 *       		eg.driver.switchTo().frame(driver.findElement(By.xpath(".//iframe[@title='Test']")))
-	 *  @author Harshvardhan Yadav (Expleo)
+	 *  @author Dheerendra Singh
 	 */
 	public void switchToFrameUsingIframe_Element(By locator) {
 		try {
@@ -991,7 +991,7 @@ public class WebActions implements _WebActions
 	/**
 	 * switch to the Frame by Frame name or Id
 	 * @param : frameName - Name/Id of frame you want to switch
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public void switchToFrameUsingNameOrId(String frameNameOrID) {
 		try {
@@ -1008,7 +1008,7 @@ public class WebActions implements _WebActions
 	/**
 	 * switch to the Frame by index
 	 * @param : index - Index on page
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public void switchToFrameUsingIndex(int index) {
 		try {
@@ -1024,7 +1024,7 @@ public class WebActions implements _WebActions
 
 	/**
 	 *	switch to the default content
-	 * 	@author Harshvardhan Yadav (Expleo)
+	 * 	@author Dheerendra Singh
 	 */
 	public void switchToDefaultContent() {
 		try {
@@ -1039,7 +1039,7 @@ public class WebActions implements _WebActions
 
 	/**
 	 * Highlight element
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public void elementHighlight(By locator) {
 		WebElement element = this.processElement(locator);
@@ -1053,7 +1053,7 @@ public class WebActions implements _WebActions
 
 	/**
 	 * Execute javascript
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public void executeJavascript(String javascript) {
 		JavascriptExecutor js = (JavascriptExecutor) objPojo.getWebDriverProvider().getDriver();
@@ -1071,7 +1071,7 @@ public class WebActions implements _WebActions
 	 * @param : locator - By identification of element (xpath up to table )
 	 * @param : columnHeader - String column header
 	 * @param : ContentToVerify - String Content to be verify 
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public boolean verifyTableContent(By locator, String columnHeader, String ContentToVerify) {
 		Hashtable<String, String> dataColumnHeader = new Hashtable<String, String>();
@@ -1105,7 +1105,7 @@ public class WebActions implements _WebActions
 
 	/**
 	 * Common function to verify column content
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 **/
 	public boolean verifyGraphContentAgainstToColumn(By locatorGraph, String XaxisHeader, String contentToVerifyFirst)
 	{

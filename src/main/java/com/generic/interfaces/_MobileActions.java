@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 /**
  * Web browser actions
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public interface _MobileActions{
 	abstract boolean click(By locator);

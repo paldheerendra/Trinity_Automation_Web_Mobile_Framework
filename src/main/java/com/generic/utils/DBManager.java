@@ -15,7 +15,7 @@ import java.util.List;
  * This class instantiates database connection to any database
  * also it contains create connection to database, execute of
  * DDL and DML query 
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class DBManager
 {

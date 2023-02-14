@@ -58,7 +58,7 @@ import com.itextpdf.text.pdf.PdfWriter;
 
 /**
  * @Description : helper class for custom reporter
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class CustomReporterHelper {
 	private String runningScriptName = "";

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 /**
  * contains adb commands to get connected android device properties. 
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class DeviceConfigurationAndroid 
 {

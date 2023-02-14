@@ -11,7 +11,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 /**
  * Appium Manager - this class contains method to start and stop appium server  
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class AppiumManager 
 {

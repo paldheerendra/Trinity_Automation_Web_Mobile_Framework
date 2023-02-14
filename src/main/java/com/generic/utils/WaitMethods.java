@@ -2,7 +2,7 @@ package com.generic.utils;
 
 import java.util.concurrent.TimeUnit;
 /**
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class WaitMethods 
 {	

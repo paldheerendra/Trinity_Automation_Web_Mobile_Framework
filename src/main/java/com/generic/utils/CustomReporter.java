@@ -4,7 +4,7 @@ import java.util.Properties;
 
 /**
  * Expleo custom reporter
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class CustomReporter extends CustomReporterHelper {
 	private Properties objCustomReporterConfig;

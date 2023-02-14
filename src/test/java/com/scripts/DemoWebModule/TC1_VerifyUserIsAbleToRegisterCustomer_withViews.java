@@ -16,7 +16,7 @@ import ru.yandex.qatools.allure.annotations.Title;
 
 /**	
  *  Verify that user is able to register customer
- * 	@author : Harshvardhan Yadav (Expleo)
+ * 	@author : Dheerendra Singh
  */
 public class TC1_VerifyUserIsAbleToRegisterCustomer_withViews extends BaseTest 
 {

@@ -7,7 +7,7 @@ import org.testng.annotations.ITestAnnotation;
 
 /**
  * TestNG RetryAnalyzer Annotation Transformer
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class RetryListener implements IAnnotationTransformer {
     @Override

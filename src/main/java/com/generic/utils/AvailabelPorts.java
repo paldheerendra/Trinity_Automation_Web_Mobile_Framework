@@ -5,7 +5,7 @@ import java.net.ServerSocket;
 public class AvailabelPorts {
 	/**
 	 * get available port
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public String getPort() {
 		String port = "";

@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 /**
  * Contains method to run commands on command prompt windows
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class CommandPrompt 
 {

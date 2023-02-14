@@ -33,13 +33,13 @@ import ru.yandex.qatools.allure.annotations.Title;
 /**
  *  Class will load all test data, load all objects, initialize web driver, start reports. 
  *  Contains generic functionalities like open browser 
- * 	@author Harshvardhan Yadav(Expleo)
+ * 	@author Dheerendra Singh
  */
 public class BaseTest extends Pojo 
 {
 	/**
 	 * This method webdriver for web application 
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	@Step("Initialize Web Environment")
 	public void initializeWebEnvironment(Hashtable<String, String> dataSet) 
@@ -78,7 +78,7 @@ public class BaseTest extends Pojo
 
 	/**
 	 * @Description	: quit webdriver  
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public void tearDownWebEnvironment()
 	{
@@ -103,7 +103,7 @@ public class BaseTest extends Pojo
 
 	/**
 	 * This method appium driver for mobile application 
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public void initializeMobileEnvironment(Hashtable<String, String> dataSet)
 	{
@@ -189,7 +189,7 @@ public class BaseTest extends Pojo
 
 	/**
 	 * @Description	: quit webdriver  
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public void tearDownMobileEnvironment()
 	{
@@ -216,7 +216,7 @@ public class BaseTest extends Pojo
 
 	/** 
 	 * return runtime object of page or view
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 * 
 	 */
 	public <T> T PageObjectManager(Class<T> cls) {
@@ -232,7 +232,7 @@ public class BaseTest extends Pojo
 
 	/** 
 	 * testng data provider
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 * 
 	 */
 	@DataProvider(name = "TestDataProvider")
@@ -286,7 +286,7 @@ public class BaseTest extends Pojo
 	 * @param 	: testDataFile - test data file
 	 * @Description : Load Data from Excel for the running testCase and return
 	 *              as Object array
-	 * @author Harshvardhan Yadav(Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public Object[][] loadDataProvider(String testCaseID, String testDataFilePath) {
 		Object[][] dataPool = null;

@@ -4,7 +4,7 @@ import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 /**
  * TestNG IRetryAnalyzer
- * @author Harshvardhan Yadav(Expleo)
+ * @author Dheerendra Singh
  */
 public class Retry implements IRetryAnalyzer {
 
