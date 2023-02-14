@@ -83,7 +83,7 @@ public class MobileActions implements _MobileActions
 
 	/**
 	 * Perform specific action on mobile element
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public boolean invokeActionOnMobileLocator(By locator, String action){
 		int intAttempts = 1;
@@ -196,7 +196,7 @@ public class MobileActions implements _MobileActions
 
 	/**
 	 * Perform specific action on mobile element
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public boolean invokeActionOnMobileLocator(By locator, String action, String... values){
 		int intAttempts = 1;
@@ -338,7 +338,7 @@ public class MobileActions implements _MobileActions
 
 	/**
 	 * Perform specific action on mobile element
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public boolean invokeActionOnMobileLocator(By locator, String action, boolean... values){
 		int intAttempts = 1;
@@ -446,7 +446,7 @@ public class MobileActions implements _MobileActions
 
 	/**
 	 * Perform specific action on mobile element
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public String getFromMobileLocator(By locator, String action, String... strategy){
 		int intAttempts = 1;
@@ -536,7 +536,7 @@ public class MobileActions implements _MobileActions
 	/**
 	 * Process mobile element with all defined synchronization 
 	 * @return processed mobile element
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public MobileElement processMobileElement(final By locator)
 	{
@@ -572,7 +572,7 @@ public class MobileActions implements _MobileActions
 	/**
 	 * Process mobile element with all defined synchronization 
 	 * @return processed mobile element list
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public List<MobileElement> processMobileElements(final By locator)
 	{
@@ -633,7 +633,7 @@ public class MobileActions implements _MobileActions
 	}
 
 	/** android scroll to required text using UIAutomator2 
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public boolean androidScrollToRequiredText(String textToSelect){
 		try
@@ -651,7 +651,7 @@ public class MobileActions implements _MobileActions
 	}
 
 	/** android scroll to child element using UIAutomator2 
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public boolean androidScrollToGetChildByText(String scrollableContainerResourceID, String childIdentifier, String actualTextToSelect){
 		try
@@ -670,7 +670,7 @@ public class MobileActions implements _MobileActions
 	}
 
 	/** android scroll to required text contains using UIAutomator2 
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public boolean androidScrollToRequiredTextContains(String textToSelect){
 		try
@@ -688,7 +688,7 @@ public class MobileActions implements _MobileActions
 	}
 
 	/** android scroll using source mobile element to destination mobile element UIAutomator2 
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public boolean scrollUsingTouchActions_ByElements(MobileElement startElement, MobileElement endElement) {
 		try
@@ -766,7 +766,7 @@ public class MobileActions implements _MobileActions
 	 *  @param : locator - The most common one. You locate your iframe like other
 	 *        		elements, then pass it into the method
 	 *       		eg.driver.switchTo().frame(driver.findElement(By.xpath(".//iframe[@title='Test']")))
-	 *  @author Harshvardhan Yadav (Expleo)
+	 *  @author Dheerendra Singh
 	 */
 	public void switchToFrameUsingIframe_Element(By locator) {
 		try {
@@ -783,7 +783,7 @@ public class MobileActions implements _MobileActions
 	/**
 	 * switch to the Frame by Frame name or Id
 	 * @param : frameName - Name/Id of frame you want to switch
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public void switchToFrameUsingNameOrId(String frameNameOrID) {
 		try {
@@ -800,7 +800,7 @@ public class MobileActions implements _MobileActions
 	/**
 	 * switch to the Frame by index
 	 * @param : index - Index on page
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public void switchToFrameUsingIndex(int index) {
 		try {
@@ -816,7 +816,7 @@ public class MobileActions implements _MobileActions
 
 	/**
 	 *	switch to the default content
-	 * 	@author Harshvardhan Yadav (Expleo)
+	 * 	@author Dheerendra Singh
 	 */
 	public void switchToDefaultContent() {
 		try {
@@ -832,7 +832,7 @@ public class MobileActions implements _MobileActions
 	/**
 	 * Return current window handle
 	 * @return current window handle
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public String getCurrentWindowHandle() {
 		try {
@@ -847,7 +847,7 @@ public class MobileActions implements _MobileActions
 
 	/**
 	 * switchTo child Window
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 **/
 	public void switchToChildWindow() 
 	{	
@@ -878,7 +878,7 @@ public class MobileActions implements _MobileActions
 
 	/**
 	 * switchTo child Window using window handle
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 **/
 	public void switchToWindowUsingHandle(String windowHandle) 
 	{	
@@ -909,7 +909,7 @@ public class MobileActions implements _MobileActions
 	/**
 	 * switch to window using the given title
 	 * @param : locator - Window title
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public boolean switchToWindowUsingTitle(String windowTitle) {
 		try {
@@ -939,7 +939,7 @@ public class MobileActions implements _MobileActions
 
 	/**
 	 * Execute javascript
-	 * @author Harshvardhan Yadav (Expleo)
+	 * @author Dheerendra Singh
 	 */
 	public void executeJavascript(String javascript) {
 		JavascriptExecutor js = (JavascriptExecutor) objPojo.getAppiumDriverProvider().getAppiumDriver();
